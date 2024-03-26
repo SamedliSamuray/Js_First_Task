@@ -30,7 +30,9 @@ let A= r==true?`Mətniniz ${simvol} simvolu ilə bitir`:`Sizin mətniniz ${simvo
 let y= /^[^a-z]*$/.test(metn);
 let b= y==true?`Mətn sadəcə böyük hərflərdən ibarətdir`:`Mətn sadəcə böyük hərflərdən ibarət deyil.`
 
-
+// let f= metn.toUpperCase()==metn;
+// let herfleri_yoxla= f==true?`Butun herfler boyukdur`:`Butun herfler boyuk deyil`;
+// console.log(herfleri_yoxla);
 
 
 
